@@ -1,0 +1,63 @@
+.ct{--c1:#22d3ee;--m:#7d8590;--ln:#1c2128;background:#000;color:#e8eaed;font:14px/1.5 'Share Tech Mono',ui-monospace,Menlo,monospace;padding:12px;border-radius:12px;max-width:1000px;margin:auto;-webkit-tap-highlight-color:transparent}
+.ct *{box-sizing:border-box}
+.ct section{border:1px solid var(--ln);background:#05070a;border-radius:10px;padding:12px;margin:14px 0}
+.ct-k{font:800 clamp(14px,4vw,18px) Orbitron,sans-serif;letter-spacing:.08em}.ct-sub{font-size:11px;letter-spacing:.15em;margin-bottom:6px}
+.ct svg{display:block;user-select:none;-webkit-user-select:none}
+.ct svg .pt{touch-action:none;cursor:grab}.ct svg .vc{cursor:pointer}
+.ct svg text{font-family:inherit}.bl{fill:#9aa4b0;font-size:8px}.tk{fill:#7d8590;font-size:10px}.pl{fill:#e8eaed;font-size:11px}.vt{fill:#fff;font-size:9px;pointer-events:none}.gl{stroke:#161b22}
+.ct-tabs{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0}
+.ct button{font:inherit;color:var(--m);background:#000;border:1px solid #30363d;border-radius:22px;min-height:44px;padding:0 16px;cursor:pointer}
+.ct button.a,.ct-g.a{color:var(--c1);border-color:var(--c1);box-shadow:0 0 12px #22d3ee33}
+.ct-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
+.ct-grid{display:grid;gap:6px;align-items:center;min-width:max-content;width:100%}
+.ct-grid b{font-size:11px;text-align:center}.ct-grid small{display:block;color:var(--m);font-weight:400}.ct-grid em{font-style:normal;font-size:10px}
+.ct-t{min-height:44px;padding:0 8px;border-radius:8px}
+.ct-t.on{color:#000;background:var(--c);border-color:var(--c)}.ct-t.off{color:#586069}
+.ct-grid i{font-style:normal;color:var(--m);font-size:10px;text-align:center}
+.ct-hint{color:var(--m);font-size:12px}
+.ct-tb{width:100%;border-collapse:collapse;font-size:12px;margin-top:12px}.ct-tb th{text-align:left;color:var(--m);font-size:10px;letter-spacing:.2em;border-bottom:1px solid #30363d}.ct-tb td,.ct-tb th{padding:6px 4px}
+.ct-tags span{display:inline-block;border:1px solid var(--ln);border-radius:20px;padding:3px 10px;font-size:11px;margin:10px 6px 0 0;color:var(--m)}
+.ct details{margin-top:12px}.ct summary{min-height:44px;display:flex;align-items:center;color:var(--c1);cursor:pointer;letter-spacing:.2em;font-size:11px}
+.ct pre{overflow-x:auto;font-size:11px;line-height:1.7;color:#c9d1d9;margin:8px 0}
+.ct-modes{display:flex;gap:8px;flex-wrap:wrap}.ct-m{min-height:36px!important}
+.ct-cmp{display:grid;grid-template-columns:1fr 1fr;gap:12px}.ct-cmp div{font:500 22px Orbitron,sans-serif}.ct-cmp small{display:block;font:10px 'Share Tech Mono',monospace;letter-spacing:.2em;color:var(--m)}
+.ct-act{display:flex;gap:10px;flex-wrap:wrap}.ct a.b,.ct-act a{display:inline-flex;align-items:center;min-height:44px;padding:0 18px;border:1px solid #30363d;border-radius:22px;color:var(--m);text-decoration:none}
+.ct-rep{display:none;background:#fff;color:#000;border-radius:8px;padding:12px}.ct.rep>:not(.ct-rep){display:none}.ct.rep .ct-rep{display:block}
+.ct-ract{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px}.ct-ract button{color:#000;background:#fff;border-color:#000}
+.ct-sheet{page-break-after:always;margin-bottom:24px}.ct-sheet h2{font:800 18px Orbitron,sans-serif}.ct-sheet h3{font-size:13px;margin:14px 0 4px}
+.ct-sheet svg .bl,.ct-sheet svg .tk,.ct-sheet svg .pl{fill:#000}.ct-sheet svg .gl{stroke:#ccc}.ct-sheet svg path{stroke:#000!important}
+.ct-ss{width:100%;border-collapse:collapse;font-size:11px;margin:4px 0 10px}.ct-ss th,.ct-ss td{border:1px solid #000;padding:3px 6px;text-align:right}.ct-ss th{background:#eee}
+@media print{.ct.rep{padding:0}.ct-ract{display:none!important}.ct{background:#fff;color:#000}.ct-tabs,.ct-act,details,.ct-rs{display:none}.ct svg{filter:grayscale(1)}}
+
+.ct-eh{font-size:11px;letter-spacing:.25em;color:var(--c1);margin:14px 0 4px}
+.ct-er{display:grid;grid-template-columns:96px 1fr 1fr;gap:8px;align-items:center;margin:6px 0;font-size:12px;color:var(--m)}
+.ct-lg small{font-size:9px;letter-spacing:.12em}
+.ct-st{display:flex;gap:4px}
+//.ct-st button{min-width:42px;padding:0;border-radius:10px}
+.ct-st button{min-width:60px;padding:0 6px;border-radius:10px;font-size:15px;font-weight:700}
+//.ct-st input{flex:1;min-width:0;min-height:44px;text-align:center;background:#000;color:var(--c1);border:1px solid #30363d;border-radius:10px;font:inherit}
+.ct-st input{flex:1;min-width:70px;min-height:48px;text-align:center;background:#000;color:var(--c1);border:1px solid #30363d;border-radius:10px;font:inherit;font-size:22px;font-weight:700;font-variant-numeric:tabular-nums;-moz-appearance:textfield;appearance:textfield}
+.ct-st input::-webkit-inner-spin-button,.ct-st input::-webkit-outer-spin-button{-webkit-appearance:none;margin:0}
+.ct-st input:disabled,.ct-st button:disabled{opacity:.35}
+.tt{fill:#e5e7eb;font-size:10px}.ct-sheet svg .tt{fill:#000}
+//@media(max-width:560px){.ct-er{grid-template-columns:1fr 1fr}.ct-er>span{grid-column:1/-1}.ct-lg>span{display:none}}
+@media(max-width:560px){.ct-er{grid-template-columns:1fr}.ct-lg{display:none}.ct-st button{min-width:64px}}
+.ct .ct-st button {
+  font-size: 1.1rem;
+  font-weight: 800;
+  min-width: 56px;
+  min-height: 44px;      /* zona táctil cómoda */
+  padding: 0 10px;
+}
+.ct .ct-st input {
+  font-size: 1.4rem;
+  font-weight: 800;
+  text-align: center;
+  width: 5.5ch;
+  min-height: 44px;
+  font-variant-numeric: tabular-nums; /* los dígitos no "bailan" al cambiar */
+}
+/* quita las flechitas nativas del input de temperatura: ya tienes botones */
+.ct .ct-st input[type=number] { -moz-appearance: textfield; appearance: textfield; }
+.ct .ct-st input[type=number]::-webkit-inner-spin-button,
+.ct .ct-st input[type=number]::-webkit-outer-spin-button { -webkit-appearance: none; margin: 0; }
